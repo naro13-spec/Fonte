@@ -1,0 +1,11 @@
+{
+  "name": "fonte",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fonte : application de musculation locale d'abord (PWA sans dépendance)",
+  "scripts": {
+    "test": "node --test",
+    "preview": "node tools/bundle.mjs . dist/fonte-preview.html"
+  }
+}

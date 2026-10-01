@@ -1,0 +1,35 @@
+/* Fonte : jetons de design (couleurs, rayons, typographies). Voir docs/design.md */
+:root {
+  box-sizing: border-box;
+  color-scheme: dark;
+
+  --graphite: #121317;
+  --acier: #1A1C21;
+  --acier-2: #23262C;
+  --trait: #2E323A;
+  --trait-fort: #434853;
+  --texte: #F1F2F4;
+  --texte-2: #A4A9B3;
+  --texte-3: #7C828D;
+
+  --ok: #58C98A;
+  --attention: #F08A5D;
+  --danger: #E5636F;
+
+  --accent: #7C93FF;
+  --accent-ink: #0B1030;
+  --accent-soft: rgba(124, 147, 255, .15);
+
+  --r-s: 8px;
+  --r-m: 14px;
+  --r-l: 22px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+
+  /* Polices du système uniquement : aucune requête vers un tiers, fonctionne hors ligne.
+     Pour utiliser Archivo, voir docs/design.md (police à héberger soi-même). */
+  --display: "Archivo", "Roboto Condensed", "sans-serif-condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+}
