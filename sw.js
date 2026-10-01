@@ -1,7 +1,7 @@
 // Service worker de Fonte : mode hors ligne.
 // À chaque nouvelle version : changer VERSION ici ET dans js/version.js (un test vérifie les deux).
 // Chaque fichier de l'application doit figurer dans CORE (un test le vérifie aussi).
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 const CACHE = 'fonte-' + VERSION;
 
 const CORE = [
@@ -30,6 +30,7 @@ const CORE = [
   './js/domain/program.js',
   './js/domain/session.js',
   './js/domain/validate.js',
+  './js/guard.js',
   './js/main.js',
   './js/ui/components.js',
   './js/ui/exercises.js',

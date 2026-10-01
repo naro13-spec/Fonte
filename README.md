@@ -31,6 +31,15 @@ Aucune donnée personnelle ne se trouve dans les fichiers : tes séances restent
 Ouvre l'adresse dans **Chrome**, ouvre le menu (les trois points), puis **Installer l'application**. Elle apparaît ensuite comme une application normale.
 Pour vérifier le mode hors ligne : ouvre l'application une première fois avec Internet, puis passe en mode avion et relance-la.
 
+## Si l'écran reste noir ou vide
+
+Depuis la version 1.0.1, Fonte affiche un message explicatif au bout de 5 secondes s'il ne démarre pas. Dans tous les cas :
+
+1. Recharge sans le cache : **Ctrl + Maj + R** (ordinateur).
+2. Ouvre `https://TON-PSEUDO.github.io/fonte/js/main.js`. Tu dois voir du code. Si tu vois « 404 », le dossier `js` n'est pas au bon endroit dans le dépôt : `js/main.js` doit exister à la racine.
+3. Vérifie que **tous** les sous-dossiers (`js/app`, `js/data`, `js/domain`, `js/ui`) ont bien été envoyés.
+4. Ouvre la console (touche F12, onglet Console) et note le texte en rouge.
+
 ## Sauvegarder tes données
 
 Tes données sont stockées sur l'appareil, dans le navigateur. Si tu vides les données du navigateur, elles disparaissent.
